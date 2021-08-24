@@ -1,0 +1,36 @@
+{
+  "name": "jsnpm",
+  "version": "1.0.0",
+  "description": "curso de npm platzi, objetivo crear un paquete para node",
+  "main": "src/index.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1",
+    "deploy" : "npm run format && npm run build",
+    "hola": "node"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/Sanbravo18/jsnpm.git"
+  },
+  "keywords": [
+    "javascript",
+    "node",
+    "package"
+  ],
+  "author": "Daniel Bravo",
+  "license": "MIT",
+  "bugs": {
+    "url": "https://github.com/Sanbravo18/jsnpm/issues"
+  },
+  "homepage": "https://github.com/Sanbravo18/jsnpm#readme",
+  "dependencies": {
+    "moment": "^2.29.1"
+  },
+  "devDependencies": {
+    "date-fns": "^2.23.0",
+    "webpack": "^5.51.1"
+  },
+  "optionalDependencies": {
+    "eslint": "^7.32.0"
+  }
+}
